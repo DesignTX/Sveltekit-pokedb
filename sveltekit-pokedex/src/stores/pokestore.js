@@ -15,6 +15,6 @@ const fetchPokemon = async () => {
 			}.png`
 		};
 	});
-	pokemon.set(loadedPokmeon);
+	pokemon.set(loadedPokemon);
 };
 fetchPokemon();
