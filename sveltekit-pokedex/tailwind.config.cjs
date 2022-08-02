@@ -1,5 +1,7 @@
-//src/**/*.svelte means to remove anything that isnt a svelte file
-module.export = {
-	mode: 'jit',
-	purge: ['./src/**/*.svelte']
+module.exports = {
+	content: ['./src/**/*.{html,js,svelte,ts}'],
+	theme: {
+		extend: {}
+	},
+	plugins: []
 };
