@@ -12,6 +12,7 @@
     export let pokeman;
     const type = pokeman.types[0].type.name
 </script>
+
 <div class="flex flex-col items-center">
 <h1 class="text-4xl text-center my-8 uppercase">{pokeman.name}</h1>
 
